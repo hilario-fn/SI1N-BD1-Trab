@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_13" directorySegmentName="seg_0" id="9E4136DD-77E0-DB77-641C-B41C21DDF60E">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-04-12 20:03:38 UTC</createdTime>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<engineerTo>
+<item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
+</engineerTo>
+<sourcePk>B9238C3E-4473-3FA4-BE15-551F19C324A5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>20B1CB0B-6DEE-C49F-073F-5460AB146734</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5DCFAF9C-BD1C-89B0-3E79-87163183249F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

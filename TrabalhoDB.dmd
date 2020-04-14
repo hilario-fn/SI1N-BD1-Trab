@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TrabalhoDB" id="12B9ED98-FA49-9167-3F2B-0DEA0134EA5C" version="3.5">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-04-12 18:35:17 UTC</createdTime>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>12B9ED98-FA49-9167-3F2B-0DEA0134EA5C</designId>
+</OSDM_Design>
