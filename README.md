@@ -10,7 +10,7 @@ Todos os medicamentos utilizados durante a cirurgia deverão ser registrados no 
 
 Após a cirurgia o paciente será enviado de volta para o hospital. 
 
-![](Imagens/modelo_readme.png)
+![](Imagens/modeloreadme.PNG)
 
 ## O meu banco de dados deve ser capaz de responder as seguintes perguntas: ##
 
