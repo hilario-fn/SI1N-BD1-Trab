@@ -30,7 +30,7 @@ ________________________________________________________________________________
 
 ## Primeira Forma Normal (1NF) ##
 
-A primeira forma normal define que todos os atributos de uma entidade devem ter um único valor. Caso um atributo tenha mais de um valor para cada instância de entidade, será necessário criar uma entidade de relacionamento. 
+A primeira forma normal define que todos os atributos de uma entidade devem ter um único valor. É necessário substituir todos os atributos multivalorados pelos atributos monovalorados que o compõem. Caso um atributo tenha mais de um valor para cada instância de entidade, será necessário criar uma entidade de relacionamento. 
 
 Paciente | Idade | Telefone
 --- | --- | --- | 
