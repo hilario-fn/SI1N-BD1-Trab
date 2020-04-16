@@ -23,3 +23,23 @@ Após a cirurgia o paciente será enviado de volta para o hospital.
 * Quais produtos em estoque não estão sendo utilizados?
 * Quais os produtos em estoque mais utilizados?
 * Qual a faixa etária de pacientes possui o maior índice de incidências cirurgicas?
+
+
+
+
+
+##Primeira Forma Normal (1NF)##
+
+A primeira forma normal define que todos os atributos de uma entidade devem ter um único valor. Caso um atributo tenha mais de um valor para cada instância de entidade, será necessário criar uma entidade de relacionamento. 
+
+##Segunda Forma Normal (2NF)##
+
+A segunda forma normal determina que cada atributo possua um identificador que não se repita (UID). Para a entidade ser considerada 2NF, ela precisa antes já ser considerada 1NF e todos os atributos da entidade devem depender de um único identificador da entidade.
+
+
+##Terceira Forma Normal (3NF)##
+
+A regra de 3NF determina que nenhum campo deve ser dependente de outro por qualquer valor que não seja uma chave na tabela. Também é necessário que a forma 2NF seja respeitada para a definição da entidade como 3NF. Se a regra 3NF for alcaçada, a tabela pode-se considerar que a entidade foi normalizada.
+
+
+
