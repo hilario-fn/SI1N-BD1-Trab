@@ -32,9 +32,23 @@ ________________________________________________________________________________
 
 A primeira forma normal define que todos os atributos de uma entidade devem ter um único valor. Caso um atributo tenha mais de um valor para cada instância de entidade, será necessário criar uma entidade de relacionamento. 
 
+Paciente | Idade | Telefone
+--- | --- | --- | 
+João | 33| 33642519 |
+Maria| 30 | 33642314 |
+Maria| 30 | 99978469 |
+José| 44 | 33642519 |
+
+
 ## Segunda Forma Normal (2NF) ##
 
 A segunda forma normal determina que cada atributo possua um identificador que não se repita (UID). Para a entidade ser considerada 2NF, ela precisa antes já ser considerada 1NF e todos os atributos da entidade devem depender de um único identificador da entidade.
+
+ID_Produto | Produto |
+--- | --- | 
+1| Seringa |
+2| Luvas | 
+3| Bisturi|
 
 ## Terceira Forma Normal (3NF) ##
 
