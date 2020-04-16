@@ -46,9 +46,9 @@ A segunda forma normal determina que cada atributo possua um identificador que n
 
 ID_Produto | Produto |
 --- | --- | 
-1| Seringa |
-2| Luvas | 
-3| Bisturi|
+1| Seringa 10ml |
+2| Seringa 10ml | 
+3| Compressa Gaze 10X10 |
 
 ## Terceira Forma Normal (3NF) ##
 
