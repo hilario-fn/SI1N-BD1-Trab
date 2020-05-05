@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -33,7 +32,6 @@
 <engineerTo>
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -44,7 +42,6 @@
 <engineerTo>
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -55,9 +52,22 @@
 <engineerTo>
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2899A71D-520E-179B-66BB-01A3FF8F0BB4" name="Produtos PK">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-05 18:59:07 UTC</createdTime>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<engineerTo>
+<item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97D40F4D-B950-70E1-DCB9-45CC449E3F7C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

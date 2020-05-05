@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -33,7 +32,6 @@
 <engineerTo>
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -44,7 +42,30 @@
 <engineerTo>
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cirurgia" id="87938BCE-2550-1A39-91E8-547EA8832462">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-05 18:56:29 UTC</createdTime>
+<generatorID>9E4136DD-77E0-DB77-641C-B41C21DDF60E</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<engineerTo>
+<item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
+</engineerTo>
+<referedAttribute>E7CC8875-095B-753B-ECAE-68BE73FA10AE</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="B4981955-8F48-7B07-9D8B-92F694CCC266">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-05 18:59:23 UTC</createdTime>
+<generatorID>2F9AF506-ECCA-0311-5257-FC8B26CEB419</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<engineerTo>
+<item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
+</engineerTo>
+<referedAttribute>97D40F4D-B950-70E1-DCB9-45CC449E3F7C</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

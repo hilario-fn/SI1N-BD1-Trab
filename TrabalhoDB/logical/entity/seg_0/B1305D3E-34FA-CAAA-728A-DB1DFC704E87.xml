@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -33,7 +32,6 @@
 <engineerTo>
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -44,9 +42,22 @@
 <engineerTo>
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="063A9F1C-203E-625B-DE8F-FC9F782CE48E" name="Medico PK">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-05 18:55:20 UTC</createdTime>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<engineerTo>
+<item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ADFA2AF0-2E61-C584-7E99-B47C6226AE1B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

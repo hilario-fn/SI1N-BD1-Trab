@@ -22,9 +22,22 @@
 <engineerTo>
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55F7377A-540D-C144-61E9-2F415857C89C" name="Sala_Cirurgia PK">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-05 18:59:34 UTC</createdTime>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<engineerTo>
+<item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4785EECA-68D2-83A2-3BAB-1E034071182F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

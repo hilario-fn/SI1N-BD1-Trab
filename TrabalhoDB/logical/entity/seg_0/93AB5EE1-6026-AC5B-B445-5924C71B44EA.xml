@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -33,9 +32,46 @@
 <engineerTo>
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_reg_medico" id="89A4F154-8D0B-3327-D6A1-817CDFF5E924">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-05 18:55:44 UTC</createdTime>
+<generatorID>56C59859-E9FE-378C-ABCD-AB51E49371C3</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<engineerTo>
+<item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
+</engineerTo>
+<referedAttribute>ADFA2AF0-2E61-C584-7E99-B47C6226AE1B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_sala" id="409838EF-D60E-9BAB-86AE-9740DEEDEB8A">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-05 18:59:35 UTC</createdTime>
+<generatorID>D2848DD7-01A5-A7B8-E664-105A24DD1E14</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<engineerTo>
+<item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
+</engineerTo>
+<referedAttribute>4785EECA-68D2-83A2-3BAB-1E034071182F</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1577F354-1E46-6B5B-D430-6006346BE80A" name="Especialidade PK">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-05 18:54:58 UTC</createdTime>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<engineerTo>
+<item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>26E8B64A-99D9-B243-916B-6840E3600006</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
