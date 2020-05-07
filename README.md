@@ -3,10 +3,9 @@
 
 Um hospital investiu parte do seu capital para ampliação e criação de um novo centro cirurgico ortopédico. 
 
-Foram contratados médicos com especialidades em diversas áreas ortopédicas. Cada cirurgia será realizada por um médico que atenda a especialidade requisitada para a realização da cirurgia. Sendo assim, o paciente ao ser recebido no centro cirurgico, será transportado para uma sala de cirurgia preparada de acordo com a cirurgia a ser realizada. Cada sala de cirurgia é equipada com equipamentos especiais para diferentes tipos de cirurgias, e também estará abastecida com os produtos necessários de acordo com a especialidade da cirurgia como medicamentos e suprimentos cirurgicos.
+Foram contratados médicos com especialidades em diversas áreas ortopédicas. Cada cirurgia será realizada por um médico que atenda a especialidade requisitada para a realização da cirurgia. Sendo assim, o paciente ao ser recebido no centro cirurgico, será transportado para uma sala de cirurgia preparada de acordo com a cirurgia a ser realizada. Cada sala de cirurgia é equipada com equipamentos especiais para diferentes tipos de cirurgias, e também estará abastecida com os produtos necessários de acordo com a especialidade da cirurgia como medicamentos e suprimentos cirurgicos. É possível que um médico tenha mais de uma especialidade.
 
-Pacientes em situação de emergência ortopédica como entorses, contusōes, fraturas e luxações, serão imediatamente encaminhados para a sala de cirurgia. O registro dessa informação é necessário. Ao chegar na sala de cirurgia, o médico terá acesso à ficha do paciente com informações como: Nome do paciente, sexo, data de nascimento, tipo de cirurgia, descrição de cirurgia. Cada cirurgia possui data e hora de início.
-Todos os medicamentos utilizados durante a cirurgia deverão ser registrados no sistema.
+Pacientes em situação de emergência ortopédica como entorses, contusōes, fraturas e luxações, serão imediatamente encaminhados para a sala de cirurgia. Se for o caso, a informação deverá ser registrada na cirurgia como emergência. Ao chegar na sala de cirurgia, o médico terá acesso à ficha do paciente com informações como: Nome do paciente, sexo, data de nascimento, tipo de cirurgia, descrição de cirurgia. Cada cirurgia possui data e hora de início. Todos os medicamentos utilizados durante a cirurgia deverão estar registrados no sistema.
 
 Após a cirurgia o paciente será enviado de volta para o hospital. 
 
