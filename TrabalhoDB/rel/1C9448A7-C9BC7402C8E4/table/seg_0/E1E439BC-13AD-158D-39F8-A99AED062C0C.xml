@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1E439BC-13AD-158D-39F8-A99AED062C0C" name="Cirurgia_Produto">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>5DCFAF9C-BD1C-89B0-3E79-87163183249F</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="data_consumo" id="57403844-EEC3-BE7C-97B6-E538ADAF038B">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>924F908D-8539-23DE-773E-ACBA0395F775</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_consumo" id="FA0BBCE8-E6D1-96AD-668B-3A44C5284EBE">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>15E983E1-7276-5AED-1CC3-F8C72DE9F441</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtd_consumida" id="FC34FB28-A010-522A-8FA5-618A0426DE7E">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>1B680C0B-9DC8-F345-4031-7680E95E1E8B</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Produto_id_produto" id="596D8EC6-FFC3-8829-AFC3-62C10C2C1586">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>B4981955-8F48-7B07-9D8B-92F694CCC266</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68A35A37-66B5-1B7E-CFAE-0AB6B6A1998D" referredColumn="1C274014-69BA-B89B-A1CE-49ADE16A7A08"/>
+</associations>
+</Column>
+<Column name="Cirurgia_id_cirurgia" id="CF106EA9-F25A-3464-D6B3-1BD534DEB8C0">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>10F61A8F-D5FF-195A-6880-674928B91A05</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAC3E6F6-914C-3E31-0E50-946BBA5A3D3F" referredColumn="88576C30-9CA9-CCA0-2146-BA5DC805A944"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2141A57E-B9B2-6AA4-1E12-EB75FBCA8A18" name="Cirurgia_Produto_Cirurgia_FK">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>9E4136DD-77E0-DB77-641C-B41C21DDF60E</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF106EA9-F25A-3464-D6B3-1BD534DEB8C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97C65E68-4BC3-CBC6-C9CE-5ED4AA71377E" name="Cirurgia_Produto_Produto_FK">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>2F9AF506-ECCA-0311-5257-FC8B26CEB419</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="596D8EC6-FFC3-8829-AFC3-62C10C2C1586"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

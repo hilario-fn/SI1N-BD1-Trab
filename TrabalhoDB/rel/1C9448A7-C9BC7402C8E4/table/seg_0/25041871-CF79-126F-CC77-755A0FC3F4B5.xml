@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25041871-CF79-126F-CC77-755A0FC3F4B5" name="Medico">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>B1305D3E-34FA-CAAA-728A-DB1DFC704E87</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_reg_medico" id="04678CC3-7940-1995-67A1-7D5CBF5FFA8C">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>ADFA2AF0-2E61-C584-7E99-B47C6226AE1B</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="C5394CE3-E797-262F-521C-84803F1D28AA">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>DCD46262-4212-6985-E620-297B71A3E667</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="E6F07581-BD8F-03B7-BE1D-7CE17687DBEE">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>C1E78C1A-1ED0-867E-03FB-9A69D7919734</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0C57E6D-C1DA-C26B-5E8A-3F8D307E092D" name="Medico_PK">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>063A9F1C-203E-625B-DE8F-FC9F782CE48E</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04678CC3-7940-1995-67A1-7D5CBF5FFA8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

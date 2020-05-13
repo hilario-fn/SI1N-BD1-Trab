@@ -87,18 +87,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cpf" id="D90A95C0-6DE7-F26D-1EC3-54EC0CD7B114">
-<createdBy>Kryogen</createdBy>
-<createdTime>2020-05-05 18:58:00 UTC</createdTime>
-<generatorID>7AFA1C41-498C-CF57-11D0-E57645CF4DC9</generatorID>
-<ownerDesignName>TrabalhoDB</ownerDesignName>
-<engineerTo>
-<item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
-</engineerTo>
-<referedAttribute>69F1694A-7EBA-9FAB-F182-D7C159E0FE38</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="nr_sala" id="F3BF7237-8ECD-9FCB-D664-5CA73EB4518D">
 <createdBy>Kryogen</createdBy>
 <createdTime>2020-05-05 18:59:35 UTC</createdTime>
@@ -108,6 +96,18 @@
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
 <referedAttribute>4785EECA-68D2-83A2-3BAB-1E034071182F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_registro" id="1FE5034A-9439-B949-9F10-5D0B487EDDE3">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-07 21:35:34 UTC</createdTime>
+<generatorID>7AFA1C41-498C-CF57-11D0-E57645CF4DC9</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<engineerTo>
+<item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
+</engineerTo>
+<referedAttribute>E8B5C3A9-BDA0-BB5D-FC33-867020EE4C98</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -121,6 +121,7 @@
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>E7CC8875-095B-753B-ECAE-68BE73FA10AE</newElementsIDs>
 <usedAttributes>
 <attributeRef>E7CC8875-095B-753B-ECAE-68BE73FA10AE</attributeRef>
 </usedAttributes>

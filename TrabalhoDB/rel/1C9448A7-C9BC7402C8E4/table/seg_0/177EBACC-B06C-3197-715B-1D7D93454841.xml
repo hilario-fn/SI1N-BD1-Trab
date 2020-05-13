@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="177EBACC-B06C-3197-715B-1D7D93454841" name="Especialidade">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>93AB5EE1-6026-AC5B-B445-5924C71B44EA</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_especialidade" id="C6533F4D-E483-B37B-FCA0-EFCBBFF96BB4">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>26E8B64A-99D9-B243-916B-6840E3600006</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_especialidade" id="85923361-14E5-9FB5-A27D-8396E559DD0E">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>A3086716-0CC7-3886-AEB9-6BAADB1E1F2E</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Medico_nr_reg_medico" id="7C8304BB-FAB0-E823-98BD-078DF25A68B7">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>89A4F154-8D0B-3327-D6A1-817CDFF5E924</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="601DF9B6-7D80-22BE-E3C0-9C925A124018" referredColumn="04678CC3-7940-1995-67A1-7D5CBF5FFA8C"/>
+</associations>
+</Column>
+<Column name="Sala_Cirurgia_nr_sala" id="F4C7C427-12D4-A55A-6719-7AF8AA64CC24">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>409838EF-D60E-9BAB-86AE-9740DEEDEB8A</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5570BF0-B3FF-A12B-F869-504FE1B4FE20" referredColumn="083EBF94-0029-0522-C7EC-87F5D19C7B4C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A3DB58B-DC81-9A8F-E101-C9CC13E607B2" name="Especialidade_PK">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>1577F354-1E46-6B5B-D430-6006346BE80A</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6533F4D-E483-B37B-FCA0-EFCBBFF96BB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="080A4980-90E1-76DB-BE17-530E56C16612" name="Especialidade_Sala_Cirurgia_FK">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>D2848DD7-01A5-A7B8-E664-105A24DD1E14</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4C7C427-12D4-A55A-6719-7AF8AA64CC24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16E14B7A-90E4-395A-11FE-6FCE65E169C7" name="Especialidade_Medico_FK">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>56C59859-E9FE-378C-ABCD-AB51E49371C3</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C8304BB-FAB0-E823-98BD-078DF25A68B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

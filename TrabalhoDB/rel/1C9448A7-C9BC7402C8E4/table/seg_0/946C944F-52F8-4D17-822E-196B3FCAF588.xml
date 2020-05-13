@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="946C944F-52F8-4D17-822E-196B3FCAF588" name="Sala_Cirurgia">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>5212E8BF-66A2-84E5-ABE8-77D68E9440FB</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_sala" id="083EBF94-0029-0522-C7EC-87F5D19C7B4C">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>4785EECA-68D2-83A2-3BAB-1E034071182F</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E02D8D93-2DB9-CF8F-130C-6395ABDFC0D2" name="Sala_Cirurgia_PK">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>55F7377A-540D-C144-61E9-2F415857C89C</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="083EBF94-0029-0522-C7EC-87F5D19C7B4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="68A35A37-66B5-1B7E-CFAE-0AB6B6A1998D" containerWithKeyObject="E1E439BC-13AD-158D-39F8-A99AED062C0C" localFKIndex="97C65E68-4BC3-CBC6-C9CE-5ED4AA71377E" name="Cirurgia_Produto_Produto_FK">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-12 23:24:24 UTC</createdTime>
+<generatorID>2F9AF506-ECCA-0311-5257-FC8B26CEB419</generatorID>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<referredTableLongName>Produto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>49FFD4A8-4EC3-C6C9-072C-C9953DF9C56F</referredTableID>
+<keyObject>4E9A635E-0932-9EC2-F721-897678994CE8</keyObject>
+<referredKeyID>4E9A635E-0932-9EC2-F721-897678994CE8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_produto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

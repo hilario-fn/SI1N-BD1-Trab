@@ -15,6 +15,16 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_registro" id="E8B5C3A9-BDA0-BB5D-FC33-867020EE4C98">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-07 21:35:11 UTC</createdTime>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<engineerTo>
+<item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="cpf" id="69F1694A-7EBA-9FAB-F182-D7C159E0FE38">
 <createdBy>Kryogen</createdBy>
 <createdTime>2020-04-12 18:47:47 UTC</createdTime>
@@ -45,13 +55,14 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="telefoneContato" id="91FF5876-7796-3201-DD0B-E49D0A4813FF">
+<Attribute name="tel_contato" id="91FF5876-7796-3201-DD0B-E49D0A4813FF">
 <createdBy>Kryogen</createdBy>
 <createdTime>2020-04-14 00:56:38 UTC</createdTime>
 <ownerDesignName>TrabalhoDB</ownerDesignName>
 <engineerTo>
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -62,6 +73,7 @@
 <engineerTo>
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -85,6 +97,18 @@
 <item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>E8B5C3A9-BDA0-BB5D-FC33-867020EE4C98</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="72FF62C9-ACB3-6AFB-0A77-B943889E62DC" name="Key_2">
+<createdBy>Kryogen</createdBy>
+<createdTime>2020-05-07 21:36:45 UTC</createdTime>
+<ownerDesignName>TrabalhoDB</ownerDesignName>
+<engineerTo>
+<item key="1C9448A7-7378-135D-422E-C9BC7402C8E4" value="true"/>
+</engineerTo>
+<newElementsIDs>69F1694A-7EBA-9FAB-F182-D7C159E0FE38</newElementsIDs>
 <usedAttributes>
 <attributeRef>69F1694A-7EBA-9FAB-F182-D7C159E0FE38</attributeRef>
 </usedAttributes>
