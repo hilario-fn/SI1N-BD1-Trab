@@ -9,7 +9,11 @@ Pacientes em situação de emergência ortopédica como entorses, contusōes, fr
 
 Após a cirurgia o paciente será enviado de volta para o hospital. 
 
+## Modelo Lógico ##
 ![](Imagens/modelo_readme_2.PNG)
+
+## Modelo Relacional ##
+![](Imagens/modelo_relacional_readme.PNG)
 
 ## O meu banco de dados deve ser capaz de responder as seguintes perguntas: ##
 
