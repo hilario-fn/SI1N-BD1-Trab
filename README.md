@@ -13,7 +13,7 @@ Após a cirurgia o paciente será enviado de volta para o hospital.
 ![](Imagens/modelo_readme_2.PNG)
 
 ## Modelo Relacional ##
-![](Imagens/modelo_relacional_readme.PNG)
+![](Imagens/modelo_relacional_readme.png)
 
 ## O meu banco de dados deve ser capaz de responder as seguintes perguntas: ##
 
